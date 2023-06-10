@@ -1,8 +1,8 @@
 // importing with ES modules
-import { Draggable } from "../models/drag-drop.js";
-import { Project } from "../models/project.js"; // named export
-import Component from "./base-component.js"; // default export (use default key)
-import { autobind } from "../decorators/autobind.js";
+import { Draggable } from "../models/drag-drop";
+import { Project } from "../models/project"; // named export
+import Component from "./base-component"; // default export (use default key)
+import { autobind } from "../decorators/autobind";
 
 // ProjectItem Class
 export class ProjectItem
